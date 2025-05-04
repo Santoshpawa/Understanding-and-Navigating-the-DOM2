@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="one">Hello World</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem corporis est nobis quisquam accusantium qui quaerat quidem ipsum provident consectetur. Iste corrupti molestiae repellat quae ad blanditiis asperiores eveniet odio.</p>
+    
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis magnam atque explicabo officiis hic quis ex, iure saepe, excepturi neque ipsam voluptas voluptate a dolore vero consequatur labore consequuntur laborum.
+    </div>
+    <div class="container">
+        This is division two of class container.
+    </div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis eos alias nam provident sit obcaecati sed sunt. Harum quas qui tempore quaerat enim itaque odio perferendis, culpa aperiam facere et?</p>
+</body>
+</html>
+<script>
+    let a=document.getElementById('one');
+    a.innerText="Welcome to the DOM World.";
+    let b=document.getElementsByTagName('p');
+    for(let i=0;i<b.length;++i){
+        b[i].style.color="blue";
+    }
+    let c=document.querySelector('.container');
+    c.style.backgroundColor="yellow";
+</script>
